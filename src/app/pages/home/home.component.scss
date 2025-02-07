@@ -1,0 +1,11 @@
+.body{
+    button{
+        transform: translateY(100%);
+        transition: all .5s;
+        opacity: 0;
+    }
+    &:hover{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
